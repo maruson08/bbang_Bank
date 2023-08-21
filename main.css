@@ -1,0 +1,29 @@
+h1, h3{
+    text-align: center;
+}
+#users{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#users span{
+    margin: 3%;
+    text-align: center;
+}
+#users .placeholder{
+    width: 80px;
+    height: 80px;
+    border-radius: 6%;
+}
+.placeholder{
+    margin-bottom: 3%;
+}
+body{
+    padding: 5%;
+    margin: none;
+}
+@media (max-width:500px) {
+    #users{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

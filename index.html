@@ -3,25 +3,48 @@
     <head>
         <meta charset="utf-8" />
         <title>빵 은행</title>
-        <link rel="stylesheet" href="linkToCSS" />
+        <link rel="stylesheet" href="main.css" />
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     </head>
     <body>
-        <h1>Main page</h1>
-        <label for="users">User List</label>
-        <div id="users" class="placeholder-glow">
-            <span style="margin: 3%;text-align: center;">
-                <div style>User 1</div>
-                <div style="width: 30px;height: 30px;" class="placeholder"></div>
+        <h1>Qkd bank</h1>
+        <h3>User List</h3>
+        <div id="users" class="placeholder-glow shadow">
+            <span id="user1">
+                <div class="user_title">User 1</div>
+                <div class="placeholder"></div>
+                <div class="user_title">내역</div>
+                <div class="user_data">
+                    YYYY.MM.DD - 출금 100B <br>
+                    YYYY.MM.DD - 입금 100B <br>
+                    YYYY.MM.DD - 출금 100B <br>
+                    YYYY.MM.DD - 출금 100B <br>
+                    YYYY.MM.DD - 출금 100B <br>
+                    YYYY.MM.DD - 빵또 100B <br>
+                    YYYY.MM.DD - 출금 100B <br>
+                    YYYY.MM.DD - 출금 100B <br>
+                    YYYY.MM.DD - 출금 100B <br>
+                    YYYY.MM.DD - 초콜릿 구입 100B <br>
+                    YYYY.MM.DD - 출금 100B <br>
+                    YYYY.MM.DD - 출금 100B <br>
+                    잔액 : 20B
+                </div>
+                <span class="btn btn-outline-primary">입금</span><span class="btn btn-outline-danger">출금</span>
             </span>
-            <span style="margin: 3%;text-align: center;">
-                <div style>User 2</div>
-                <div style="width: 30px;height: 30px;" class="placeholder"></div>
+            <span id="user2">
+                <div class="user_title">User 2</div>
+                <div class="placeholder user2"></div>
+                <div class="user_title">내역</div>
+                <div class="user_data"></div>
+                <span class="btn btn-outline-primary">입금</span><span class="btn btn-outline-danger">출금</span>
             </span>
-            <span style="margin: 3%;text-align: center;">
-                <div style>User 3</div>
-                <div style="width: 30px;height: 30px;" class="placeholder"></div>
+            <span id="user3">
+                <div class="user_title">User 3</div>
+                <div class="placeholder user3"></div>
+                <div class="user_title">내역</div>
+                <div class="user_data"></div>
+                <span class="btn btn-outline-primary">입금</span><span class="btn btn-outline-danger">출금</span>
             </span>
         </div>
     </body>
